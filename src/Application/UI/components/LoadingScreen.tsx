@@ -10,7 +10,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
     const [overlayOpacity, setLoadingOverlayOpacity] = useState(1);
     const [loadingTextOpacity, setLoadingTextOpacity] = useState(1);
     const [startPopupOpacity, setStartPopupOpacity] = useState(0);
-    const [firefoxPopupOpacity, setFirefoxPopupOpacity] = useState(0);
+    //const [firefoxPopupOpacity, setFirefoxPopupOpacity] = useState(0);
     const [webGLErrorOpacity, setWebGLErrorOpacity] = useState(0);
 
     const [showBiosInfo, setShowBiosInfo] = useState(false);
